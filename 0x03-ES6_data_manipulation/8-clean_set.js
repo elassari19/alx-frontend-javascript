@@ -1,5 +1,4 @@
 // should return a string with all the values of the set that start with 
-// the string startString, separated by a hyphen (-)
 
 export default function cleanSet(set, startString) {
   const parts = [];
