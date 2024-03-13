@@ -1,7 +1,7 @@
 // should be able to use WeakMap
 
+export const weakMap = new WeakMap();
 export function queryAPI(endpoint) {
-  const weakMap = new WeakMap();
   if (!weakMap.has(endpoint)) {
     weakMap.set(endpoint, 0);
   }
